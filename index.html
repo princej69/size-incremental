@@ -6,10 +6,12 @@
     </head>
     <body>
         <span id="size">0</span> <span id="illion">yocto</span>meters <br>
-        <button onclick="game.size+=game.gain;">Grow</button>
+        <button onclick="game.size+=game.gain;game.total+=game.gain;">Grow</button>
         <br><br>
-        Increased Gain <button onclick="if(game.size>=game.gain){game.size-=game.gain;game.gain+=1}">Upgrade</button><br>
-        More Size per second <button onclick="if(game.size>=game.persec*10){game.size-=game.persec*10;game.persec+=1}">Upgrade</button>
+        Increased Gain <button onclick="if(game.size>=game.gain){game.size-=game.gain;game.gain++}">Upgrade</button><br>
+        <b>SIZES BOOSTER</b><br>
+        <div id="MSps">More Size per second <button onclick="if(game.size>=(game.persec)*10){game.size-=(game.persec+1)*10;game.persec++}">Upgrade</button></div>
+        <div id="MSps2">More Size per second<sup>2</sup> <button onclick="if(game.size>=game.persec2*100){game.size-=game.persec2*100;game.persec2++}">Upgrade</button></div>
     </body>
     <script src="js/illions.js"></script> 
     <script src="js/main.js"></script> 

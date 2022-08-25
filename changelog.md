@@ -1,4 +1,8 @@
 # Changelog
+## Alpha 1.2 [Aug 25, 2022]
+- Added Size / sec<sup>2</sup>
+- Added the check if you have sufficient things
+- Made a bit more challenging
 ## Alpha 1.1 [Aug 23, 2022]
 - Button & style improvements ([#3](https://github.com/princej69/size-incremental/issues/3))
 - Added tick speeds & size per second ([#2](https://github.com/princej69/size-incremental/issues/2))
