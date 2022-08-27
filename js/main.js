@@ -12,7 +12,7 @@ let game = {
 
 function save() {
     localStorage.setItem("SizeIncrementalSave", JSON.stringify(game))
-    alert(localStorage.getItem("SizeIncrementalSave"))
+    //alert(localStorage.getItem("SizeIncrementalSave"))
 }
 function load() {
     if(localStorage.getItem("SizeIncrementalSave")) {
